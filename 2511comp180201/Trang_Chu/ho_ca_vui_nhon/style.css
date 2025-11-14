@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  background: #0e2f44;
+  overflow: hidden;
+}
+button {
+  top: 10px;
+  left: 10px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  background: #1989cf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #145374;
+}
+#aquarium {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #009dff, #265c79);
+  overflow: hidden;
+}
+
+/* squid */
+.squid {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url('squid.png') no-repeat center/contain;
+  top: 50%;
+  left: 10%;
+}
+.squid1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url('squid.png') no-repeat center/contain;
+  top: 30%;
+  left: 90%;
+}
+.squid2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url('squid.png') no-repeat center/contain;
+  top: 80%;
+  left: 40%;
+}
+.squid3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url('squid.png') no-repeat center/contain;
+  top: 20%;
+  left: 50%;
+}
+/* Shark */
+.shark {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background: url('shark.png') no-repeat center/contain;
+  top: 30%;
+  left: 0;
+  transform: scaleX(-1);
+}
+.stingray {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background: url('stingray.png') no-repeat center/contain;
+  top: 60%;
+  left: 80%;
+  transform: scaleX(-1);
+}
+/* Fish group */
+.fish-group {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  display: flex;
+  gap: 20px;
+}
+.fish-group_1{
+    position: absolute;
+    bottom: 50%;
+    left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.fish-group_2{
+  position: absolute;
+  top: 80%;
+  left: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.yellowfish {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 50px;
+    height: 40px;
+    background: url('yellowfish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.bluefish {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 50px;
+    height: 40px;
+    background: url('bluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.darkbluefish {
+    width: 50px;
+    height: 40px;
+    background: url('darkbluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.yellowfish_1 {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 40px;
+    background: url('yellowfish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.bluefish_1 {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    width: 50px;
+    height: 40px;
+    background: url('bluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.darkbluefish_1 {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    width: 50px;
+    height: 40px;
+    background: url('darkbluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.yellowfish_2 {
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 50px;
+    height: 40px;
+    background: url('yellowfish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.bluefish_2 {
+    position: absolute;
+    right: 20px;
+    bottom: -5px;
+    width: 50px;
+    height: 40px;
+    background: url('bluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.darkbluefish_2 {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    width: 50px;
+    height: 40px;
+    background: url('darkbluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.yellowfish_3 {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    width: 50px;
+    height: 40px;
+    background: url('yellowfish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.bluefish_3 {
+    position: absolute;
+    right: -10px;
+    top: 15px;
+    width: 50px;
+    height: 40px;
+    background: url('bluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.darkbluefish_3 {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 50px;
+    height: 40px;
+    background: url('darkbluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.yellowfish_1 {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 40px;
+    background: url('yellowfish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.bluefish_1 {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    width: 50px;
+    height: 40px;
+    background: url('bluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.darkbluefish_1 {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    width: 50px;
+    height: 40px;
+    background: url('darkbluefish.png') no-repeat center/contain;
+    transform: scaleX(-1);
+}
+.container{
+    display: flex;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center
+  };
